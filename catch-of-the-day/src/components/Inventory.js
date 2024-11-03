@@ -3,6 +3,7 @@ import AddFishForm from './AddFishForm';
 import EditFishForm from "./EditFishForm";
 import propTypes from "prop-types";
 import PropTypes from "prop-types";
+import Login from "./Login";
 
 class Inventory extends React.Component {
 
@@ -12,6 +13,9 @@ class Inventory extends React.Component {
         deleteFish: PropTypes.func,
         loadSampleFishes: PropTypes.func
     }
+
+
+
     render() {
         return(
             <div className='inventory'>
